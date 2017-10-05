@@ -1,0 +1,53 @@
+repoURL
+External repo URL
+String
+ 
+No
+Yes
+No
+No
+------------------------
+sourceLoc
+location for source
+String
+/root
+No
+Yes
+No
+No
+------------------------
+AdminUser
+User Id for App Server admin user
+String
+wfadmin
+No
+Yes
+Yes
+No
+------------------------
+wildflyHome
+Home directory for installation
+String
+/root
+No
+Yes
+Yes
+No
+------------------------
+useExternalRepo
+Use external repo for source
+Boolean
+false
+No
+Yes
+Yes
+No
+------------------------
+AdminPassword
+Password for Admin user
+Secure String
+*****
+Yes
+Yes
+No
+No
