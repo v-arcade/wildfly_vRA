@@ -1,7 +1,7 @@
 #! /bin/sh
 
 echo "External Repo value="  $ExternalRepo
-if [ $ExternalRepo ];
+if [ $ExternalRepo = "Yes" ];
 then
         echo "Getting file from External Repo"
         wget --no-check-certificate -O /tmp/temperature-converter.war $repoURL/temperature-converter.war
