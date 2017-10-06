@@ -1,7 +1,7 @@
 #! /bin/bash
 
 echo "External Repo value="  $ExternalRepo
-if [  $useExternalRepo ];
+if [  $useExternalRepo = "Yes" ];
 then
         echo "Getting file from External Repo"
         wget --no-check-certificate -O /tmp/wildfly-11.0.0.CR1.tar.gz $repoURL/wildfly-11.0.0.CR1.tar.gz
